@@ -1,0 +1,13 @@
+{
+  "name": "cypress-project-using-page-object-model-design-pattern",
+  "version": "1.0.0",
+  "description": "cypress-project-using-page-object-model-design-pattern",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.6.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
