@@ -27,6 +27,7 @@ project-root
 └── README.md                         # Project documentation
 ```
 ⚙️ Installation and Setup
+```bash
 
 1️⃣ Clone the repository
 git clone https://github.com/IbrahimMohamedFahmy/cypress-project-using-page-object-model-design-pattern
