@@ -23,3 +23,20 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+Cypress.Commands.add("openDemo", ()=>
+    {
+        cy.visit("https://www.saucedemo.com/");
+        cy.viewport("macbook-16");
+    });
+
+Cypress.Commands.add("checkUrl", (url)=>
+    {
+        cy.url().should("eq", url);
+    });
+
+    Cypress.Commands.add("login", (username, password) => {
+        cy.get('[data-test="username"]').type(username);
+        cy.get('[data-test="password"]').type(password);
+        cy.get('[data-test="login-button"]').click();
+      });
+      
