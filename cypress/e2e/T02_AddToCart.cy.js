@@ -94,7 +94,7 @@ describe("Add to Cart Flow", function()
             cy.checkUrl(userData.ProductPage);
 
             // step 8: add that product to the cart
-            P02_AddToCart.AddProductToCart();
+            P02_AddToCart.AddProductToCart().should("be.visible").click();
 
             //step 9: open to cart page 
             P02_AddToCart.OpenCartPage();
@@ -178,7 +178,7 @@ describe("Add to Cart Flow", function()
                 cy.visit("https://www.saucedemo.com/inventory-item.html?id=4", { failOnStatusCode: false });
 
                 // step 2: verify that the add to cart button not exists 
-                cy.get("#add-to-cart").should("not.exist");
+                P02_AddToCart.AddProductToCart().should("not.exist")
 
                 // step 3: check the user will redirect to sign in page
                  cy.checkUrl(userData.SignInPage);

@@ -41,7 +41,7 @@ class addToCart
 
     AddProductToCart()
     {
-        this.elements.AddToCartB().should("be.visible").click();
+        return this.elements.AddToCartB();
     };
 
 };
