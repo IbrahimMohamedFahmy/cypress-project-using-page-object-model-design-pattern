@@ -7,5 +7,7 @@
   "PostNumber": "12345",
   "SignInPage": "https://www.saucedemo.com/",
   "ProductsPage": "https://www.saucedemo.com/inventory.html",
-  "Title": "Swag Labs"
+  "Title": "Swag Labs",
+  "CartPage": "https://www.saucedemo.com/cart.html",
+  "ProductPage": "https://www.saucedemo.com/inventory-item.html?id=4"
 }
