@@ -3,7 +3,7 @@ class helpers
     // Data Members
 
     // Methods
-    CompareText(expected, actual)
+    CompareValues(expected, actual)
     {
         expect(expected).to.be.eq(actual);
 

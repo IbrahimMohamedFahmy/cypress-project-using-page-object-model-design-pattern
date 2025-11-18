@@ -64,7 +64,7 @@ describe("Add to Cart Flow", function()
             P02_AddToCart.GetInventoryItemName(0).then((element)=>
                 {
                     let ProductName = element.text();
-                    helpers.CompareText(ProductName, ProductName1);
+                    helpers.CompareValues(ProductName, ProductName1);
                 });
         });
 
@@ -103,7 +103,7 @@ describe("Add to Cart Flow", function()
             P02_AddToCart.GetInventoryItemName(0).then((element)=>
                 {
                     let ProductName = element.text();
-                    helpers.CompareText(ProductName, ProductName1);
+                    helpers.CompareValues(ProductName, ProductName1);
                 });
         }); 
         
@@ -148,14 +148,14 @@ describe("Add to Cart Flow", function()
            P02_AddToCart.GetInventoryItemName(0).then((element)=>
             {
                 let ProductName = element.text();
-                helpers.CompareText(ProductName, ProductName1);
+                helpers.CompareValues(ProductName, ProductName1);
             });
             
             // step 12: check the product name is match
             P02_AddToCart.GetInventoryItemName(1).then((element)=>
             {
                     let ProductName = element.text();
-                    helpers.CompareText(ProductName, ProductName2);
+                    helpers.CompareValues(ProductName, ProductName2);
             });
         });
 

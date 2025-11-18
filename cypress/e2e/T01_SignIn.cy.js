@@ -1,6 +1,5 @@
 /// <reference types="cypress" />
 import P01_SignIn from "../pages/P01_SignIn";
-import helpers from "../support/helpers";
 
 // main test suit that include all test cases related to the sign in flow
 describe("Sign in flow", function()

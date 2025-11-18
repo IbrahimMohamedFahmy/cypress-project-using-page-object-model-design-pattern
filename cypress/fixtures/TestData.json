@@ -4,10 +4,12 @@
   "Password": "secret_sauce",
   "FirstName": "Ibrahim",
   "LastName": "Omran",
-  "PostNumber": "12345",
+  "PostCode": "12345",
   "SignInPage": "https://www.saucedemo.com/",
   "ProductsPage": "https://www.saucedemo.com/inventory.html",
   "Title": "Swag Labs",
   "CartPage": "https://www.saucedemo.com/cart.html",
+  "CheckOutPage1": "https://www.saucedemo.com/checkout-step-one.html",
+  "CheckOutPage2": "https://www.saucedemo.com/checkout-step-two.html",
   "ProductPage": "https://www.saucedemo.com/inventory-item.html?id=4"
 }
