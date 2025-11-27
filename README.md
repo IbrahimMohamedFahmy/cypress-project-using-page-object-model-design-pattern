@@ -1,6 +1,6 @@
-🧪 Cypress E2E Testing Project – SauceDemo Automation (POM Design Pattern)
+# 🧪 Cypress E2E Testing Project – SauceDemo Automation (POM Design Pattern)
 
-📌 Overview
+## 📌 Overview
 This project is a Cypress End-to-End Automation Framework implemented using the Page Object Model (POM) Design Pattern.
 It covers all major flows of the SauceDemo web application, including Sign-In, Add to Cart, Checkout, and Sign-Out.
 ```
